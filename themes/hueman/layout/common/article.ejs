@@ -5,7 +5,7 @@
                 <%- partial('post/title', { class_name: 'article-title' }) %>
             </header>
         <% } %>
-
+        <hr style="margin-bottom:2px;"/>
         <% if (post.layout != 'page') { %>
 
             <div class="article-meta">
@@ -13,7 +13,7 @@
                 <%- partial('post/tag') %>
             </div>
         <% } %>
-        <hr/>
+
         <%- partial('post/gallery') %>
         <div class="article-entry" itemprop="articleBody">
             <%- post.content %>

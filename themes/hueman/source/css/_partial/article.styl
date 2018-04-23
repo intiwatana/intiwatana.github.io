@@ -133,6 +133,9 @@
             color: color-theme
         & > div
             margin-right: 0
+    .article-tag
+        a
+            color: grey
 
 .article-tag
     .tag-link
@@ -162,7 +165,13 @@
         margin-top: line-height
         margin-bottom: line-height
         list-style-position: outside
-        padding-left: 1.4em
+        padding-left: 1.5em
+        ul
+            padding-left: 0px
+        li > input[type="checkbox"]
+            margin-right: 10px
+            width: 18px
+            height: 18px
         p
             margin: 0
     img, video
@@ -189,12 +198,12 @@
         margin: 0 0 20px 0
         position: relative
         font-style: italic
-        padding-left: 50px
+        padding-left: 34px
         &:before
             top: 0
             left: 0
             color: #ccc
-            font-size: 32px
+            font-size: 28px
             content: "\f10d"
             position: absolute
             text-align: center
