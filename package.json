@@ -1,9 +1,15 @@
 {
-  "name": "hexo-site",
+  "name": "intiwatana.github.io",
+  "author": "intiwatana",
   "version": "0.0.0",
   "private": true,
   "hexo": {
     "version": "3.7.1"
+  },
+  "scripts": {
+    "deploy": "hexo deploy -g",
+    "start": "hexo server -o",
+    "build": "hexo clean && hexo generate"
   },
   "dependencies": {
     "hexo": "^3.2.0",
