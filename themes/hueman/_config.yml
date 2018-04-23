@@ -9,12 +9,12 @@ customize:
     logo:
         width: 140
         height: 40
-        url: /images/logo-header.png
+        url: /images/common/logo-header.png
     theme_color: '#59abdb'
     highlight: androidstudio
     sidebar: left # sidebar position, options: left, right
     thumbnail: false # enable posts thumbnail, options: true, false
-    favicon: /images/favicon.ico # path to favicon
+    favicon: /images/common/favicon.ico # path to favicon
     social_links: # for more icons, please see http://fontawesome.io/icons/#brand
         mail: mailto:merryyear45@gmail.com
         linkedin: https://www.linkedin.com/in/merryyear45
