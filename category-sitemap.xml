@@ -7,8 +7,15 @@
     </url>
 
     <url>
-        <loc>http://intiwatana.github.io/%ED%85%8C%EC%8A%A4%ED%8A%B8/</loc>
-        <lastmod>2018-04-09T13:36:31.000Z</lastmod>
+        <loc>http://intiwatana.github.io/FrontEnd/</loc>
+        <lastmod>2018-04-23T06:23:40.000Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://intiwatana.github.io/FrontEnd/SEO/</loc>
+        <lastmod>2018-04-23T06:23:40.000Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
