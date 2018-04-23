@@ -1,7 +1,9 @@
 {
   "name": "intiwatana.github.io",
-  "author": "intiwatana",
+  "author": "intiwatana<merryyear45@gmail.com>(https://intiwatana.github.io/)",
   "version": "0.0.0",
+  "description": "개발을 하면서 부딪히는 이런저러한 일들을 요리조리 정리하는 블로그입니다",
+  "license": "SEE LICENSE IN LICENSE",
   "private": true,
   "hexo": {
     "version": "3.7.1"
@@ -9,7 +11,8 @@
   "scripts": {
     "deploy": "hexo deploy -g",
     "start": "hexo server -o",
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate",
+    "setup blog": "sudo npm install && git branch dev && git checkout dev && git push origin dev",
   },
   "dependencies": {
     "hexo": "^3.2.0",
