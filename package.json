@@ -12,7 +12,7 @@
     "deploy": "hexo deploy -g",
     "start": "hexo server -o",
     "build": "hexo clean && hexo generate",
-    "setup blog": "sudo npm install && git branch dev && git checkout dev && git push origin dev",
+    "setup blog": "sudo npm install && git branch dev && git checkout dev && git push origin dev"
   },
   "dependencies": {
     "hexo": "^3.2.0",
