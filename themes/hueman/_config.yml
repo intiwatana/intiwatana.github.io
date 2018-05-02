@@ -67,6 +67,7 @@ plugins:
     baidu_analytics: # enter Baidu Analytics hash key
     bing_site_verification: # enter Bing verification key here
     mathjax: false # options: true, false
+    hexo-reference: true #footnote option added
 
 # Miscellaneous
 miscellaneous:
