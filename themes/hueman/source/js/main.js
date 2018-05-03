@@ -8,7 +8,8 @@
     $('#main-nav-toggle').on('click', function () {
         $('.nav-container-inner').slideToggle();
     });
-
+    // CUSTOM : for checkbox disabled
+    $(':checkbox').attr('disabled','disabled');
     // Caption
     $('.article-entry').each(function(i) {
         $(this).find('img').each(function() {
