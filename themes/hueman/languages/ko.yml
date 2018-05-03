@@ -12,7 +12,7 @@ nav:
     total_page:
         other: '/ %d'
 sidebar:
-    follow: '팔로우'
+    follow: 'Follow'
     newer: '새로운'
     older: '오래된'
     recents: '최근 포스트'
