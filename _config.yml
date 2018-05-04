@@ -111,9 +111,11 @@ feed:
 
 ## hexo-generator-robotstxt
 robotstxt:
-  User-agent: '*'
-  Allow: /
-  Sitemap: /sitemap.xml
+  useragent: "*"
+  disallow:
+  allow:
+    - /
+  sitemap: https://intiwatana.github.io/sitemap.xml
 
 ## hexo-all-minifier
 ### https://www.npmjs.com/package/hexo-all-minifier
