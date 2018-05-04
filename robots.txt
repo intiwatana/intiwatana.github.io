@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://intiwatana.github.io/sitemap.xml
